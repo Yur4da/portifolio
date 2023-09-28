@@ -146,17 +146,29 @@ header {
 /********************* SECTION SOBRE ********************/
 
 .sobre {
-    background-color: #141414;
+    background-color: #5b5b5b;
     display: flex;
     height: 100vh;
     width: 100%;
-    align-items: center;
     justify-content: center;
 }
 
-.conteudo-sobre {
-    display: flex;
+.titulo-sobre {
+    margin-top: 150px;
+}
 
+h3 {
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.conteudo-sobre{
+    display: flex;
 }
 
 .foto-perfil img {
@@ -166,34 +178,121 @@ header {
     margin-right: 15px;
 }
 
-.texto-sobre {
+.texto-sobre{
     width: 700px;
 }
 
-h3 {
+.texto-sobre p {
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;;
+}
+
+/********************* SECTION SKILLS ********************/
+.skills {
+    background-color: #141414;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulo-skill {
+    margin-top: 150px;
+}
+
+
+.area-card{
+    display: flex;
+
+}
+.cards {
+    background-color: #5b5b5b;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(76, 181, 249, 1));
+    filter: drop-shadow(0px 0px 10px rgba(76, 181, 249, 1));
+    margin: 130px 80px 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.cards p{
     color: white;
     font-family: 'Jockey One', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 25px;
+    padding-top: 25px;
+    cursor: pointer;
 }
 
-p {
-    color: white;
-    font-size: 20px;
+.cards:hover {
+    background-color: black;
+}
+
+
+
+/********************* SECTION PROJETOS ********************/
+
+.projetos {
+    background-color: #5b5b5b;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.texto-projeto {
+    margin-top: 150px;
+}
+
+.cards {
+    
+    
+}
+
+.cards p{
+    
+    
 }
 
 
 
 
+/********************* SECTION CONTATO ********************/
+.contato {
+    background-color: #141414;;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
 
+.texto-contato {
+    margin-top: 150px;
+}
 
+.icone-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
 
+.icone-contato img {
+    width: 100px;
+    margin: 0 80px;
+    transition-duration: 2s;
+    transform-origin: 10% 50%;
+    
+}
 
-
-
-
+.icone-contato img:hover {
+    transition: 2s;
+    transform: scale(1.5);
+}
 
 
 
